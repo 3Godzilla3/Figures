@@ -1,0 +1,83 @@
+.presentation{
+  background-image: url(images/фон2.jpg);
+  height: 1920px;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: aqua;
+}
+
+.presentation::after{
+  content:"Лучшие гитары и педали";
+  color: azure;
+  position: absolute;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 750px;
+}
+
+.presentation::before {
+  content: "Только у нас!";
+  position: absolute;
+  color: azure;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 50px;
+}
+
+.button {
+  background-color: blue;
+  height: 50px;
+  width: 150px;
+  transition: 700ms;
+  color: red; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover {
+  background-color: brown;
+  transform: rotate(360deg) scale(1.5);
+}
+
+p {
+  width: 150px;
+  height: 150px;
+  font-weight: bold;
+  color: red;
+  border: 1px solid black;
+  
+
+}
+
+p.highlighted {
+  background-color: yellow;
+  text-align: ;
+  
+}
+
+h2{
+  font-size: 20px;
+}
+  
+.hight{
+  border: 1px solid #ccc;
+  font-style: ;
+
+}
+
+#myElement .myClass{
+  background-color: black;
+
+}
+  
+
+
+
+@media (max-width:1200px) {
+  .button {
+    background-color: black;
+  }
+
+  
+
+  
+}
